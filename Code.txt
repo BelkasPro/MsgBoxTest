@@ -1,0 +1,63 @@
+#include <Windows.h>
+#include <iostream>
+
+int main()
+{
+	if (MessageBoxW(NULL, L"Test\r\n123", L"Test 123 MB_ICONQUESTION", MB_YESNO | MB_ICONQUESTION) == IDNO)
+	{
+		ExitProcess(0);
+	}
+	else
+	{
+		if (MessageBoxW(NULL, L"Test\r\n123", L"Test 123 MB_ICONINFORMATION", MB_YESNO | MB_ICONINFORMATION) == IDNO)
+		{
+			ExitProcess(0);
+		}
+		else
+		{
+			if (MessageBoxW(NULL, L"Test\r\n123", L"Test 123 MB_ICONEXCLAMATION", MB_YESNO | MB_ICONEXCLAMATION) == IDNO)
+			{
+				ExitProcess(0);
+			}
+			else
+			{
+				if (MessageBoxW(NULL, L"Test\r\n123", L"Test 123 MB_ICONWARNING", MB_YESNO | MB_ICONWARNING) == IDNO)
+				{
+					ExitProcess(0);
+				}
+				else
+				{
+					if (MessageBoxW(NULL, L"Test\r\n123", L"Test 123 MB_ICONASTERISK", MB_YESNO | MB_ICONASTERISK) == IDNO)
+					{
+						ExitProcess(0);
+					}
+					else
+					{
+						if (MessageBoxW(NULL, L"Test\r\n123", L"Test 123 MB_ICONSTOP", MB_YESNO | MB_ICONSTOP) == IDNO)
+						{
+							ExitProcess(0);
+						}
+						else
+						{
+							if (MessageBoxW(NULL, L"Test\r\n123", L"Test 123 MB_ICONERROR", MB_YESNO | MB_ICONERROR) == IDNO)
+							{
+								ExitProcess(0);
+							}
+							else
+							{
+								if (MessageBoxW(NULL, L"Test\r\n123", L"Test 123 MB_ICONHAND", MB_YESNO | MB_ICONHAND) == IDNO)
+								{
+									ExitProcess(0);
+								}
+								else
+								{
+
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
